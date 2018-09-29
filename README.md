@@ -168,7 +168,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:52164](http://localhost:52164) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
@@ -276,7 +276,7 @@ Then add the block below to your `launch.json` file and put it inside the `.vsco
     "name": "Chrome",
     "type": "chrome",
     "request": "launch",
-    "url": "http://localhost:3000",
+    "url": "http://localhost:52164",
     "webRoot": "${workspaceRoot}/src",
     "sourceMapPathOverrides": {
       "webpack:///src/*": "${webRoot}/*"
@@ -294,7 +294,7 @@ Having problems with VS Code Debugging? Please see their [troubleshooting guide]
 
 You would need to have [WebStorm](https://www.jetbrains.com/webstorm/) and [JetBrains IDE Support](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji) Chrome extension installed.
 
-In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and select `JavaScript Debug`. Paste `http://localhost:3000` into the URL field and save the configuration.
+In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and select `JavaScript Debug`. Paste `http://localhost:52164` into the URL field and save the configuration.
 
 >Note: the URL may be different if you've made adjustments via the [HOST or PORT environment variables](#advanced-configuration).
 
