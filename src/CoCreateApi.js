@@ -1,7 +1,7 @@
 import axios from "axios";
 
-//baseUrl =
+const baseUrl = "/api/cocreate";
 
 export function getAllSubmissions() {
-  return axios.get("/api/cocreate");
+  return axios.get(baseUrl);
 }
